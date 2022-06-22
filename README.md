@@ -1,2 +1,2 @@
-# Tip-Calculator
-# Tip-Calculator
+# VERSION 1. 
+  - VERY BASIC UI. 
