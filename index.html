@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+  	<meta charset="utf-8">
+  	<meta name="description" content="Your description goes here">
+  	<meta name="keywords" content="one, two, three">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<title>Vice Tip Calculator</title>
+
+		<!-- external CSS link -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="normalize.css">
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+<main>
+
+	
+      <h1 class="tipCalculator"> TIP CALCULATOR </h1>
+	  
+
+	<section class="one">
+	    <h2 class="totalBill"> BILL TOTAL ? </h2>
+	    <form id="topForm">
+		<label for="billAmount"></label><br>
+		<input type="text" id="billAmount" name="billAmount"><br>
+	    </form>
+	</section>
+
+	<section class="two">
+	    <h2 class="howMuchTip"> TIP AMOUNT ? </h2>
+	    <span class="span"> Enter in percentage or whole number only </span>
+	    <form id="middleForm">
+		<label for="tipAmount"></label> <br>
+		<input type="text" id="tipAmount" name="tipAmount"><br>
+	    </form>
+	</section>
+	<br></br>
+	
+	<H2 class="weSplitting"> AMOUNT OF PEOPLE SPLITTING WITH? </H2>
+    <section class="three">
+	  
+	  <form id="bottomForm">
+		<label for="pplAmount"></label> <br>
+		<input type="text" id="pplAmount" name="pplAmount"><br>
+	  </form>
+	  <br></br>
+	  <span>TOTAL BILL WITH TIP INCLUDED<span>
+	  <h1 id="answerHere"> </h1> 
+	  
+	  <br></br>
+	  <span>EACH PERSON PAYS 
+	  <h1 id="splitTip"> </h1>
+	 
+	  <br></br>
+	  <span> TIP AMOUNT IN BILL IS </span>
+	  <br></br>
+	  <h1 id="tipIs">  </h1>
+	  <br></br>
+	
+    </section>
+	
+
+</main>
+	
+
+
+
+<SECTION class="button">
+
+	<section class="leftButton">
+		<button id="leftButton" type="button" name="button">SUBMIT</button>
+	</section>
+	
+	<section class="rightButton">
+	<button id="rightButton" type="button" value="reset" name="button">CLEAR</button>
+
+	</section>
+	
+	
+
+
+</SECTION>
+
+
+
+		<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
